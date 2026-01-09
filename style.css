@@ -206,7 +206,7 @@ nav .menu ul a{
 }
 
 .brain-area .brain-text  .brain-hedding h1{
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bold;
     margin-bottom: 16px;
 }
@@ -229,4 +229,55 @@ nav .menu ul a{
     width: 20px;
     height: 20px;
     margin-top: 4px;
+}
+
+
+.think{
+    width: 1600px;
+    padding: 120px;
+}
+
+.think .think-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: #F7F6F2;
+    border-radius: 12px;
+    padding: 40px 80px;
+}
+
+.think-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.think-container .think-p{
+    width: 520px;
+    margin: 0 auto ;
+    font-size: 16px;
+    color: #627382;
+    /* margin-bottom: 24px; */
+}
+
+.think-container .last-btn{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 16px 12px;
+}
+
+.last-btn .btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin-bottom: 16px; */
+    
+}
+
+.last-btn img{
+    width: 20px;
+    height: 20px;
 }
