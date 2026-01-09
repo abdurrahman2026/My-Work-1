@@ -176,5 +176,57 @@ nav .menu ul a{
 .box-card .box-p{ 
     width: 274px;
     height: 44px;
-   
+}
+
+.brain {
+    width: 1360px;
+    height: 600px;
+}
+
+.brain .brain-area{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 120px;
+    gap: 60px;
+}
+
+.brain-area .brain-img img{
+    width: 600px;
+    height: 600px;
+}
+
+
+.brain-area .brain-text{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 700px;
+    height: 396px;
+}
+
+.brain-area .brain-text  .brain-hedding h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.brain-area .brain-text  .brain-hedding .brain-p{
+    color: #627382;
+    text-align: start;
+    margin-bottom: 40px;
+}
+
+
+.brain-list{
+    display: flex;
+    align-items: flex-start; 
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.brain-list img{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
 }
