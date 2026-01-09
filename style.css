@@ -281,3 +281,60 @@ nav .menu ul a{
     width: 20px;
     height: 20px;
 }
+
+footer{
+    width: 1600px;
+    height: 348px;
+    margin: 0;
+}
+
+.container{
+    background: #001931;
+    display: flex;
+    padding: 120px 120px 30px 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 80px;
+}
+
+.container .content1{
+    display: flex;
+    width: 1360px;
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.content1 .sosial h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.links img{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    gap: 16px;
+}
+
+.container .line{
+    width: 100%;
+    height: 1px ;
+    background: white;
+    margin: 15px ;
+}
+
+.container .content2 {
+    width: 1300px;
+    text-align: center;
+}
+
+.container .content2 a{
+    text-decoration: none;
+    color: white;
+    /* line-height: 24px; */
+}
