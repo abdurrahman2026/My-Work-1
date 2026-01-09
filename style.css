@@ -22,6 +22,11 @@
     padding: 16px;
 }
 
+.btn:hover{
+    background: rgb(83, 28, 50);
+    /* color: black; */
+}
+
 p{
     font-size: 16px;
     /* font-weight: 24px; */
