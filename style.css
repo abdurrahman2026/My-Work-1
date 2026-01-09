@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* aki rokom jinis */
+
+.btn {
+    background: #30B868;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    gap: 10px;
+    padding: 16px;
+}
+
+p{
+    font-size: 16px;
+    /* font-weight: 24px; */
+    text-align: center;
+    line-height: 26px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1600px;
+    padding: 16px 120px;
+}
+
+nav .logo img {
+    width: 139px;
+    height: 60px;
+}
+
+nav .menu ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+nav .menu ul a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.hero{
+    background: url(./assets/hero-bg.png);
+    max-width: 1600px;
+    height: 674px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 115px 120px 180px 120px;
+}
+
+
+
+.hero .container .content{
+    max-width: 770px ;
+}
+
+.hero .container .content h1{
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.hero .container .content h1 .extra-color{
+    color: #30B868;
+}
+
+.hero .hero-p{
+    color: white;
+    margin-bottom: 32px;
+}
+
+.hero .hero-btn{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+
+.hero .hero-btn .three{
+    background: none;
+    border: 1px solid white;
+}
+
+.description {
+    width: 1360px;
+    height: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description .text-area{
+    text-align: center;
+    padding-top: 58px;
+}
+
+.description  h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.text-area .description-p{
+    color: #627382;
+    /* margin-bottom: 44px; */
+}
+
+.box-section{
+    max-width: 1360px ;
+    height: 300px;
+    margin: 44px 120px 48px 120px;
+}
+
+.box-section .box-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-section .box-area .box-card{
+    display: flex;
+    width: 322px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    /* border: 1px solid red; */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.box-section .box-area .box-card .png{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-card .png .img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 16px;
+}
+
+.box-card h3{
+    font-size: 24px;
+    font-weight: 700;
+    /* margin-bottom: 16px; */
+}
+
+.box-card .box-p{ 
+    width: 274px;
+    height: 44px;
+   
+}
